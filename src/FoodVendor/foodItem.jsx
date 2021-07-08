@@ -68,19 +68,7 @@ export const RatingContainer = styled.div`
     top: 325px;
 `;
 
-export const AddContainer = styled.div`
-    height: 60px;
-    width: 30%;
-    background-color: orange;
-    
-    border-top-left-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    position: relative;
-    top:15px;
-`;
+
 
 export const Button = styled.button`
     height: 50px;
@@ -98,14 +86,25 @@ export const Button = styled.button`
     border: 1px solid #fff;
 `;
 
+export const AddContainer = styled.div`
+    height: 60px;
+    width: 30%;
+    background-color: orange;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    position: relative;
+    top:15px;
+`;
 
 export const AddSign = styled.div`
     position: absolute;
     color: #fff;
     font-weight:2;
     font-size: 62px;
-    top: -23px;
-    right: 21px;
+    margin-bottom: 14px;
     text-align: center;
 `;
 
