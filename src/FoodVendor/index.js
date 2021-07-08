@@ -23,7 +23,7 @@ import {
 
 export function FoodVendor() {
   const [fdvendor, setFdvendor] = useState([]);
-  const [spinner, setSpinner] = useState(false) 
+  const [spinner, setSpinner] = useState(false)
 
 
   const foodItems = 'https://asm-dev-api.herokuapp.com/api/v1/food';

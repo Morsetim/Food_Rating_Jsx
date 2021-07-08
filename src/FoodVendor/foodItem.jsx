@@ -11,6 +11,9 @@ export const BoxContainer = styled.div`
     position: relative;
     border-top-right-radius: 18px;
     border-bottom-left-radius: 18px;
+    @media (max-width:480px) {
+        width: 100%;
+    }
 `;
 
 export const FoodItemImage = styled.img`
@@ -19,6 +22,9 @@ export const FoodItemImage = styled.img`
     box-sizing: border-box;
     border-top-right-radius: 18px;
     border-bottom-left-radius: 18px;
+    @media (max-width:480px) {
+        width: 100%;
+    }
 `;
 
 export const FoodTitle = styled.h2`
@@ -113,12 +119,17 @@ export const Wrapper = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    @media (max-width:480px){
+        display: flex;
+        flex-flow: column;
+    }
 `;
 
 export const MainContainer = styled.div`
     display: flex;
     flex-flow: column;
 `;
+
 export const Spinner = styled.div`
     display: flex;
     justify-content: center;
