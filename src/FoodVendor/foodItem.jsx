@@ -108,6 +108,52 @@ export const AddSign = styled.div`
     text-align: center;
 `;
 
+export const Title = styled.div`
+    background-color: orange;
+    height: 75px;
+    width: 100%;
+    position: relative;
+`;
+
+export const PageTitle = styled.p`
+    color: #fff;
+    font-size: 44px;
+    font-family: 'Caveat', cursive;
+    position: absolute;
+    bottom: -30px;
+    transform: rotate(-35deg);
+    font-weight: 700;
+    left: 20px;
+    @media (max-width:480px) {
+        transform: none;
+        left: 100px;
+    }
+`;
+
+export const ToggleIcon = styled.div`
+    @media (min-width:480px) {
+        display: none;
+    }
+    @media (max-width:480px) {
+    font-size: 42px;
+    position: absolute;
+    left: 14px;
+    color: white;
+    }
+`;
+
+export const MealIcon = styled.div`
+    @media (min-width:480px) {
+        display: none;
+    }
+    @media (max-width:480px) {
+    font-size: 42px;
+    position: absolute;
+    left: 210px;
+    color: white;
+    }
+`;
+
 export const FoodPriceAndFoodTitle = styled.div`
     width: 80%;
     display: flex;
@@ -124,9 +170,18 @@ export const Wrapper = styled.div`
     }
 `;
 
+export const Container = styled.div`
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+`;
+
 export const MainContainer = styled.div`
     display: flex;
     flex-flow: column;
+    width: 100%;
 `;
 
 export const Spinner = styled.div`

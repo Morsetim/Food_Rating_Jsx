@@ -17,7 +17,12 @@ import {
   AddContainer,
   AddSign,
   Button,
-  Spinner
+  Spinner,
+  Title,
+  Container,
+  PageTitle,
+  ToggleIcon,
+  MealIcon
 } from './foodItem'
 
 
@@ -47,6 +52,12 @@ export function FoodVendor() {
 
   return (
   <MainContainer>
+  <Title>
+  <ToggleIcon>&#9783;</ToggleIcon>
+  <PageTitle>Foodie</PageTitle>
+  <MealIcon>&#9832;</MealIcon>
+  </Title>
+  <Container>
   {spinner ?<Spinner> <Loader type="Puff" color="#FFA500" 
   height={300} width={300} timeout={30000}/></Spinner> : 
   <>
@@ -77,6 +88,7 @@ export function FoodVendor() {
         <Button>Learn More</Button>
         </>
       }
+      </Container>
     </MainContainer>
   )
 }

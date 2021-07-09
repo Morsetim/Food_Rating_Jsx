@@ -4,8 +4,10 @@ import { FoodVendor } from './FoodVendor'
 
 
 const AppContainer = styled.div`
-  width: 70%;
-  margin: auto;
+  width: 100%;
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
 `;
 
 
