@@ -55,7 +55,7 @@ export function FoodVendor() {
   <Title>
   <ToggleIcon>&#9780;</ToggleIcon>
   <PageTitle>Foodie</PageTitle>
-  <MealIcon>&#9832;</MealIcon>
+  <MealIcon>&#x2668;</MealIcon>
   </Title>
   <Container>
   {spinner ?<Spinner> <Loader type="Puff" color="#FFA500" 
