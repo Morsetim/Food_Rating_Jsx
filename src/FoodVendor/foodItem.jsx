@@ -139,6 +139,7 @@ export const ToggleIcon = styled.div`
     position: absolute;
     left: 14px;
     color: white;
+    background-color: white;
     }
 `;
 
