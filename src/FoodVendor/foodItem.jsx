@@ -135,11 +135,11 @@ export const ToggleIcon = styled.div`
         display: none;
     }
     @media (max-width:480px) {
+    margin-top: 5px;
     font-size: 42px;
     position: absolute;
     left: 14px;
-    color: white;
-    background-color: white;
+    color: white !important;
     }
 `;
 
