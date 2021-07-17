@@ -38,7 +38,6 @@ export function FoodVendor() {
     axios.get(foodItems) 
       .then((response) =>{
         setSpinner(false)
-        console.log(response.data.data.meals)
         const allMeals = response.data.data.meals
         setFdvendor(allMeals)
       })
@@ -59,7 +58,7 @@ export function FoodVendor() {
   </Title>
   <Container>
   {spinner ?<Spinner> <Loader type="Puff" color="#FFA500" 
-  height={300} width={300} timeout={30000}/></Spinner> : 
+  height={300} width={300} timeout={10000}/></Spinner> : 
   <>
     <Wrapper>
       {fdvendor.map(item =>{

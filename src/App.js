@@ -5,13 +5,14 @@ import { FoodVendor } from './FoodVendor'
 
 const AppContainer = styled.div`
   width: 100%;
-  /* margin: auto; */
   display: flex;
   justify-content: center;
 `;
 
 
+
 function App(){
+
   return <AppContainer>
       <FoodVendor />
   </AppContainer>

@@ -143,6 +143,18 @@ export const ToggleIcon = styled.div`
     }
 `;
 
+export const bigDiv = styled.div`
+    height: 400px;
+    width: 400px;
+    border: 1px solid green;
+`;
+
+export const smallDiv = styled.div`
+    height: 150px;
+    width: 150px;
+    border: 1px solid red;
+`;
+
 export const MealIcon = styled.div`
     @media (min-width:480px) {
         display: none;
